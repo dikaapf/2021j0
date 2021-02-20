@@ -872,8 +872,10 @@ img.lazyload:not([src]) {
     left: 0;
     z-index: 900;
     display: none;
-    background-color: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    /* background-color: #fff; */
+    background-color: #1c1c1c;
+    /* border-bottom: 1px solid rgba(0, 0, 0, .1); */
+    border-bottom: 1px solid #161616;
     padding: 4px;
 }
 
@@ -913,7 +915,8 @@ img.lazyload:not([src]) {
     font-size: 24px;
     line-height: 24px;
     padding: 12px;
-    color: #222 !important;
+    /* color: #222 !important; */
+    color: #eee !important;
 }
 
 .nav-mobile-header-container .mobile-search .search-icon {
@@ -922,7 +925,8 @@ img.lazyload:not([src]) {
     font-size: 20px !important;
     line-height: 24px;
     padding: 12px;
-    color: #222 !important;
+    /* color: #222 !important; */
+    color: #eee !important;
 }
 
 .nav-mobile-header-container .mobile-search .search-icon .icon-times {
