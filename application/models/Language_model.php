@@ -85,11 +85,11 @@ class Language_model extends CI_Model
         //add settings
         $settings = array(
             'lang_id' => $lang_id,
-            'site_title' => "Varient - News Magazine",
+            'site_title' => "INJO - Inspiring Journal",
             'home_title' => "Index",
-            'site_description' => "Varient - News Magazine",
-            'keywords' => "Varient, News, Magazine",
-            'application_name' => "Varient",
+            'site_description' => "INJO - Inspiring Journal",
+            'keywords' => "Inspiring, News, Sosok, Moment",
+            'application_name' => "INJO.ID",
             'primary_font' => 19,
             'secondary_font' => 25,
             'tertiary_font' => 32,
@@ -120,16 +120,16 @@ class Language_model extends CI_Model
     {
         //add pages
         $page = array(
-            'lang_id' => $lang_id, 'title' => "Gallery", 'slug' => "gallery", 'description' => "Varient Gallery Page", 'keywords' => "varient, gallery , page", 'is_custom' => 0, 'page_default_name' => 'gallery', 'page_content' => "", 'page_order' => 2, 'visibility' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "main", 'link' => '', 'parent_id' => 0, 'page_type' => "page",
+            'lang_id' => $lang_id, 'title' => "Gallery", 'slug' => "gallery", 'description' => "INJO Gallery Page", 'keywords' => "INJO, gallery , page", 'is_custom' => 0, 'page_default_name' => 'gallery', 'page_content' => "", 'page_order' => 2, 'visibility' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "main", 'link' => '', 'parent_id' => 0, 'page_type' => "page",
         );
         $this->db->insert('pages', $page);
         $page = array(
-            'lang_id' => $lang_id, 'title' => "Contact", 'slug' => "contact", 'description' => "Varient Contact Page", 'keywords' => "varient, contact, page", 'is_custom' => 0, 'page_default_name' => 'contact', 'page_content' => "", 'page_order' => 1, 'visibility' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "top", 'link' => '', 'parent_id' => 0, 'page_type' => "page",
+            'lang_id' => $lang_id, 'title' => "Contact", 'slug' => "contact", 'description' => "INJO Contact Page", 'keywords' => "INJO, contact, page", 'is_custom' => 0, 'page_default_name' => 'contact', 'page_content' => "", 'page_order' => 1, 'visibility' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "top", 'link' => '', 'parent_id' => 0, 'page_type' => "page",
         );
         $this->db->insert('pages', $page);
 
         $page = array(
-            'lang_id' => $lang_id, 'title' => "Terms & Conditions", 'slug' => "terms-conditions", 'description' => "Varient Terms Conditions Page", 'keywords' => "varient, terms, conditions", 'is_custom' => 0, 'page_default_name' => 'terms_conditions', 'page_content' => "", 'page_order' => 1, 'visibility' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "footer", 'link' => '', 'parent_id' => 0, 'page_type' => "page",
+            'lang_id' => $lang_id, 'title' => "Terms & Conditions", 'slug' => "terms-conditions", 'description' => "INJO Terms Conditions Page", 'keywords' => "INJO, terms, conditions", 'is_custom' => 0, 'page_default_name' => 'terms_conditions', 'page_content' => "", 'page_order' => 1, 'visibility' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "footer", 'link' => '', 'parent_id' => 0, 'page_type' => "page",
         );
         $this->db->insert('pages', $page);
     }

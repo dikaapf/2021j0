@@ -8,7 +8,7 @@
     <title><?php echo xss_clean($title); ?> - <?php echo xss_clean($this->settings->site_title); ?></title>
     <meta name="description" content="<?php echo addslashes(xss_clean($description)); ?>"/>
     <meta name="keywords" content="<?php echo xss_clean($keywords); ?>"/>
-    <meta name="author" content="Codingest"/>
+    <meta name="author" content="Dcode"/>
     <meta property="og:locale" content="en_US"/>
     <meta property="og:site_name" content="<?php echo xss_clean($this->settings->application_name); ?>"/>
 <?php if (isset($post_type)): ?>
