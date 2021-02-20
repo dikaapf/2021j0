@@ -18,11 +18,16 @@
                     </div>
                 </div>
             </div><!-- /.col-sm-4 -->
+
+            <!-- Start Random post - Disable -->
             <!-- footer widget random posts-->
-            <div class="col-sm-4 col-xs-12">
-                <!--Include footer random posts partial-->
-                <?php $this->load->view('partials/_footer_random_posts'); ?>
-            </div><!-- /.col-sm-4 -->
+            <!-- <div class="col-sm-4 col-xs-12">
+                <?php //$this->load->view('partials/_footer_random_posts'); ?>
+            </div> -->
+            <!-- /.col-sm-4 -->
+            <!-- End Random Post - Disable -->
+
+
             <!-- footer widget follow us-->
             <div class="col-sm-4 col-xs-12">
                 <div class="col-sm-12 footer-widget f-widget-follow">
