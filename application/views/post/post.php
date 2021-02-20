@@ -161,40 +161,7 @@
                     </div>
                 <?php endif; ?>
 
-                <!--Include banner-->
-                <?php $this->load->view("partials/_ad_spaces", ["ad_space" => "post_bottom", "class" => "bn-p-b"]); ?>
-
-                <!--include about author -->
-                <?php
-                if ($this->general_settings->show_post_author == 1): ?>
-                    <?php $this->load->view('post/_post_about_author', ['post_user' => $post_user]); ?>
-                <?php endif; ?>
-
-                <section class="section section-related-posts">
-                    <div class="section-head">
-                        <h4 class="title"><?php echo trans("related_posts"); ?></h4>
-                    </div>
-
-                    <div class="section-content">
-                        <div class="row">
-                            <?php $i = 0; ?>
-                            <?php foreach ($related_posts as $item): ?>
-
-                                <?php if ($i > 0 && $i % 3 == 0): ?>
-                                    <div class="col-sm-12"></div>
-                                <?php endif; ?>
-
-                                <!--include post item-->
-                                <div class="col-sm-4 col-xs-12">
-                                    <?php $this->load->view("post/_post_item_mid", ["post" => $item]); ?>
-                                </div>
-
-                                <?php $i++; ?>
-                            <?php endforeach; ?>
-                        </div>
-                    </div>
-                </section>
-
+                <!-- Start Komentar -->
                 <?php if ($this->general_settings->comment_system == 1 || $this->general_settings->facebook_comment_active == 1): ?>
                     <section id="comments" class="section">
                         <div class="col-sm-12 col-xs-12">
@@ -234,6 +201,41 @@
                         </div>
                     </section>
                 <?php endif; ?>
+                <!-- End Komentar -->
+
+                <!--Include banner-->
+                <?php $this->load->view("partials/_ad_spaces", ["ad_space" => "post_bottom", "class" => "bn-p-b"]); ?>
+
+                <!--include about author -->
+                <?php
+                if ($this->general_settings->show_post_author == 1): ?>
+                    <?php $this->load->view('post/_post_about_author', ['post_user' => $post_user]); ?>
+                <?php endif; ?>
+
+                <section class="section section-related-posts">
+                    <div class="section-head">
+                        <h4 class="title"><?php echo trans("related_posts"); ?></h4>
+                    </div>
+
+                    <div class="section-content">
+                        <div class="row">
+                            <?php $i = 0; ?>
+                            <?php foreach ($related_posts as $item): ?>
+
+                                <?php if ($i > 0 && $i % 3 == 0): ?>
+                                    <div class="col-sm-12"></div>
+                                <?php endif; ?>
+
+                                <!--include post item-->
+                                <div class="col-sm-4 col-xs-12">
+                                    <?php $this->load->view("post/_post_item_mid", ["post" => $item]); ?>
+                                </div>
+
+                                <?php $i++; ?>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </section>
 
             </div>
 
