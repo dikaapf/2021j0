@@ -31,13 +31,13 @@
             <i class="icon-twitter"></i>
         </a>
     </li>
-    <li>
+    <!-- <li>
         <a href="javascript:void(0)"
            onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php echo generate_post_url($post); ?>', 'Share This Post', 'width=640,height=450');return false"
            class="social-btn-sm linkedin">
             <i class="icon-linkedin"></i>
         </a>
-    </li>
+    </li> -->
     <li class="li-whatsapp">
         <a href="https://api.whatsapp.com/send?text=<?php echo urlencode($post->title); ?> - <?php echo generate_post_url($post); ?>"
            class="social-btn-sm whatsapp"
@@ -45,25 +45,27 @@
             <i class="icon-whatsapp"></i>
         </a>
     </li>
-    <li>
+    <!-- <li>
         <a href="javascript:void(0)"
            onclick="window.open('http://pinterest.com/pin/create/button/?url=<?php echo generate_post_url($post); ?>&amp;media=<?php echo base_url() . html_escape($post->image_default); ?>', 'Share This Post', 'width=640,height=450');return false"
            class="social-btn-sm pinterest">
             <i class="icon-pinterest"></i>
         </a>
-    </li>
-    <li>
+    </li> -->
+    <!-- <li>
         <a href="javascript:void(0)"
            onclick="window.open('http://www.tumblr.com/share/link?url=<?php echo generate_post_url($post); ?>&amp;title=<?php echo urlencode($post->title); ?>', 'Share This Post', 'width=640,height=450');return false"
            class="social-btn-sm tumblr">
             <i class="icon-tumblr"></i>
         </a>
-    </li>
-    <li>
+    </li> -->
+    
+    <!-- Disable Fitur Cetak -->
+    <!-- <li>
         <a href="javascript:void(0)" id="print_post" class="social-btn-sm btn-print">
             <i class="icon-print"></i>
         </a>
-    </li>
+    </li> -->
 
     <!--Add to Reading List-->
     <?php if ($this->auth_check) : ?>

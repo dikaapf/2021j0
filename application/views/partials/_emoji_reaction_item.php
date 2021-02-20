@@ -1,6 +1,7 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <?php
-$total_vote = $reactions->re_like + $reactions->re_dislike + $reactions->re_love + $reactions->re_funny + $reactions->re_angry + $reactions->re_sad + $reactions->re_wow;
+// $total_vote = $reactions->re_like + $reactions->re_dislike + $reactions->re_love + $reactions->re_funny + $reactions->re_angry + $reactions->re_sad + $reactions->re_wow;
+$total_vote = $reactions->re_like + $reactions->re_dislike + $reactions->re_love + $reactions->re_funny + $reactions->re_angry + $reactions->re_sad;
 $per_rate = 100;
 if ($total_vote >= 100) {
     $per_rate = 200;

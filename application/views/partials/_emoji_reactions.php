@@ -6,5 +6,5 @@ $this->load->view('partials/_emoji_reaction_item', ['reactions' => $reactions, '
 $this->load->view('partials/_emoji_reaction_item', ['reactions' => $reactions, 'reaction' => 'funny']);
 $this->load->view('partials/_emoji_reaction_item', ['reactions' => $reactions, 'reaction' => 'angry']);
 $this->load->view('partials/_emoji_reaction_item', ['reactions' => $reactions, 'reaction' => 'sad']);
-$this->load->view('partials/_emoji_reaction_item', ['reactions' => $reactions, 'reaction' => 'wow']);
+// $this->load->view('partials/_emoji_reaction_item', ['reactions' => $reactions, 'reaction' => 'wow']);
 ?>
