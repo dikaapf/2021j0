@@ -106,7 +106,7 @@ if ($language->id == $this->site_lang->id):?>
                 <div class="row">
                     <div class="left">
                         <a href="<?php echo lang_base_url(); ?>">
-                            <img src="<?php echo $this->dark_mode == 1 ? get_logo_footer($this->visual_settings) : get_logo($this->visual_settings); ?>" alt="logo" class="logo">
+                            <img src="<?php echo $this->dark_mode == 0 ? get_logo_footer($this->visual_settings) : get_logo($this->visual_settings); ?>" alt="logo" class="logo">
                         </a>
                     </div>
                     <div class="right">

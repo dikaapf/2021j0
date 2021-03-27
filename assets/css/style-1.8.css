@@ -513,7 +513,8 @@ img.lazyload:not([src]) {
 }
 
 .logo-banner {
-    padding: 15px 0
+    padding: 15px 0;
+    background-color: #1c1c1c!important;
 }
 
 .logo-banner .left {
