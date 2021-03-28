@@ -1726,7 +1726,8 @@ img.lazyload:not([src]) {
     text-transform: uppercase;
     left: 15px;
     padding: 8px 10px;
-    top: 0
+    top: 0;
+    border-radius: 4px
 }
 
 .news-ticker ul {
@@ -1873,7 +1874,8 @@ img.lazyload:not([src]) {
     font-weight: 400;
     margin-bottom: -1px;
     text-transform: uppercase;
-    margin-top: 0
+    margin-top: 0;
+    border-radius: 4px;
 }
 
 .section .section-head .title a {
@@ -2256,7 +2258,8 @@ img.lazyload:not([src]) {
 .sidebar-widget .widget-head {
     background-color: #161616;
     display: block;
-    line-height: 1 !important
+    line-height: 1 !important;
+    border-radius: 4px;
 }
 
 .sidebar-widget .widget-head .title {
@@ -2305,7 +2308,7 @@ img.lazyload:not([src]) {
     height: 40px;
     line-height: 40px;
     color: #fff;
-    border-radius: .25rem
+    border-radius: 2rem;
 }
 
 .widget-follow li a i {
