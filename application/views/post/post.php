@@ -57,9 +57,10 @@
                         <div class="post-details-meta-date">
                             <?php if ($this->general_settings->show_post_date == 1): ?>
                                 <span class="sp-left"><?php echo helper_date_format($post->created_at); ?>&nbsp;-&nbsp;<?php echo formatted_hour($post->created_at); ?></span>
-                                <?php if (!empty($post->updated_at)): ?>
+                                <!-- disable tgl update posting -->
+                                <!-- <?php if (!empty($post->updated_at)): ?>
                                     <span class="sp-left sp-post-update-date"><?php echo trans("updated"); ?>:&nbsp;<?php echo helper_date_format($post->updated_at); ?>&nbsp;-&nbsp;<?php echo formatted_hour($post->updated_at); ?></span>
-                                <?php endif; ?>
+                                <?php endif; ?> -->
                             <?php endif; ?>
                         </div>
 
