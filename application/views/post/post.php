@@ -146,8 +146,8 @@
 
                 </div>
 
-                <!--include next previous post -->
-                <?php $this->load->view('post/_post_next_prev', ['previous_post' => $previous_post, 'next_post' => $next_post]); ?>
+                <!-- Disable include next previous post -->
+                <!-- <?php $this->load->view('post/_post_next_prev', ['previous_post' => $previous_post, 'next_post' => $next_post]); ?>
 
                 <?php if ($this->general_settings->emoji_reactions == 1): ?>
                     <div class="col-sm-12 col-xs-12">
@@ -160,7 +160,7 @@
                             </div>
                         </div>
                     </div>
-                <?php endif; ?>
+                <?php endif; ?> -->
 
                 <!-- Start Komentar -->
                 <?php if ($this->general_settings->comment_system == 1 || $this->general_settings->facebook_comment_active == 1): ?>
