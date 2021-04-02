@@ -7,7 +7,7 @@
     <div class="pull-right hidden-xs">
         <strong style="font-weight: 600;"><?php echo $this->settings->copyright; ?>&nbsp;</strong>
     </div>
-    <b>Version</b>&nbsp;1.8.1
+    <b>Version</b>&nbsp;2.0.1
 </footer>
 </div><!-- ./wrapper -->
 <!-- jQuery UI 1.11.4 -->

@@ -111,7 +111,7 @@ $install_path = $root . "install";
     <div class="wrapper">
         <div class="center">
             <h1 class="title">INJO</h1>
-            <p class="version">Version 1.8.1</p>
+            <p class="version">Version 2.0.1</p>
             <a href="<?php echo $install_path; ?>" class="button">Install</a>
         </div>
     </div>

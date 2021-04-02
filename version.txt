@@ -1,7 +1,7 @@
-INJO- News & Magazine Script
+INJO - Inspiring Journal Script
 
-Version 1.8.1
+Version 2.0.1
 
-By Dcode
+By DeltaCode
 
 https://codecanyon.net/item/INJO-news-magazine-script/21035226
