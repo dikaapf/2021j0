@@ -7,7 +7,7 @@ class Home_controller extends Home_Core_Controller
         parent::__construct();
 
         $this->post_load_more_count = 6;
-        $this->comment_limit = 50;
+        $this->comment_limit = 600;
     }
 
     /**
