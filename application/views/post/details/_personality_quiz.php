@@ -96,9 +96,10 @@
         <div class="col-sm-12">
             <div id="quiz_result_container"></div>
         </div>
-        <div class="col-sm-12 btn-play-again-content">
+        <!-- Disable button play again -->
+        <!-- <div class="col-sm-12 btn-play-again-content">
             <button type="button" class="btn btn-xl btn-custom" onclick="window.location.reload(); parent.scrollTo(0,0);"><?php echo trans("play_again"); ?></button>
-        </div>
+        </div> -->
     </div>
 </div>
 <?php if ($post->post_type == "trivia_quiz"): ?>
