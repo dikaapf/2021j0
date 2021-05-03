@@ -85,9 +85,9 @@ class Language_model extends CI_Model
         //add settings
         $settings = array(
             'lang_id' => $lang_id,
-            'site_title' => "INJO - Inspiring Journal",
-            'home_title' => "Index",
-            'site_description' => "INJO - Inspiring Journal",
+            'site_title' => "Media Dakwah Inspiratif",
+            'home_title' => "INJO",
+            'site_description' => "Media Dakwah Inspiratif",
             'keywords' => "Inspiring, News, Sosok, Moment",
             'application_name' => "INJO.ID",
             'primary_font' => 19,
