@@ -3221,6 +3221,14 @@ img.lazyload:not([src]) {
     font-size: 17px
 }
 
+.share-box li a.telegrams {
+    background: #0088cc
+}
+
+.share-box li a.telegrams i {
+    font-size: 17px
+}
+
 .share-box li a.pinterest {
     background: #cb2027
 }
@@ -7055,6 +7063,10 @@ form select.error {
     }
 
     .li-line {
+        display: inline-block !important
+    }
+
+    .li-telegram {
         display: inline-block !important
     }
 

@@ -52,6 +52,13 @@
            <i class="icon-line"></i>
         </a>
     </li>
+    <li class="li-telegram">
+        <a href="https://t.me/share/url?url=<?php echo generate_post_url($post); ?>&text=<?php echo urlencode($post->title); ?>"
+           class="social-btn-sm telegram"
+           target="_blank">
+            <i class="icon-telegram"></i>
+        </a>
+    </li>
     <!-- <li>
         <a href="javascript:void(0)"
            onclick="window.open('http://pinterest.com/pin/create/button/?url=<?php echo generate_post_url($post); ?>&amp;media=<?php echo base_url() . html_escape($post->image_default); ?>', 'Share This Post', 'width=640,height=450');return false"
