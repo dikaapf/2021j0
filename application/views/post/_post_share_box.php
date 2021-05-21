@@ -45,6 +45,13 @@
             <i class="icon-whatsapp"></i>
         </a>
     </li>
+    <li class="li-line">
+        <a href="javascript:void(0)"
+           onclick="window.open('line://msg/text/<?php echo generate_post_url($post); ?>&amp;text=<?php echo urlencode($post->title); ?>', 'Share This Post', 'width=640,height=450');return false"
+           class="social-btn-sm line">
+           <i class="icon-line"></i>
+        </a>
+    </li>
     <!-- <li>
         <a href="javascript:void(0)"
            onclick="window.open('http://pinterest.com/pin/create/button/?url=<?php echo generate_post_url($post); ?>&amp;media=<?php echo base_url() . html_escape($post->image_default); ?>', 'Share This Post', 'width=640,height=450');return false"
