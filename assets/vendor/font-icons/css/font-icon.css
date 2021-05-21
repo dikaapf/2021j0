@@ -460,4 +460,8 @@
     content: '\e853';
 }
 
+/* '' */
+.icon-line:before {
+    background: url(line-brands.svg);
+}
 /* '' */

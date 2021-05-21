@@ -3209,6 +3209,18 @@ img.lazyload:not([src]) {
     font-size: 17px
 }
 
+.share-box li a.line {
+    background: #1ead08;
+    background-image: url(../img/line-logo.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: center; 
+}
+
+.share-box li a.line i {
+    font-size: 17px
+}
+
 .share-box li a.pinterest {
     background: #cb2027
 }
@@ -7039,6 +7051,10 @@ form select.error {
     }
 
     .li-whatsapp {
+        display: inline-block !important
+    }
+
+    .li-line {
         display: inline-block !important
     }
 
