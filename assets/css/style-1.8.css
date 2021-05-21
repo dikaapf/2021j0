@@ -3211,7 +3211,7 @@ img.lazyload:not([src]) {
 
 .share-box li a.line {
     background: #1ead08;
-    background-image: url(../img/line-brands.svg);
+    background-image: url(../img/line-logo.png);
     background-repeat: no-repeat;
     background-size: 17px;
     background-position: center; 
