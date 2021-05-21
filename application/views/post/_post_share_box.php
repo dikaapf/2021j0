@@ -47,7 +47,7 @@
     </li>
     <li class="li-line">
         <a href="javascript:void(0)"
-           onclick="window.open('line://msg/text/<?php echo generate_post_url($post); ?>&amp;text=<?php echo urlencode($post->title); ?>', 'Share This Post', 'width=640,height=450');return false"
+           onclick="window.open('line://msg/text/<?php echo generate_post_url($post); ?>', 'Share This Post', 'width=640,height=450');return false"
            class="social-btn-sm line">
            <i class="icon-line"></i>
         </a>
