@@ -137,7 +137,7 @@
                             </div>
                         </div>
 
-                        <p class="m-t-15"><strong>234x60 <?php echo trans('banner'); ?></strong></p>
+                        <p class="m-t-15"><strong>330x85 <?php echo trans('banner'); ?></strong></p>
                         <div class="row row-ad-space">
                             <div class="col-sm-6">
                                 <label class="control-label"><?php echo trans('paste_ad_code'); ?></label>
