@@ -9,6 +9,7 @@ application/config/database.php
 application/config/config.php
 .htaccess
 uploads/*
+hanif/*
 !uploads/.htaccess
 !uploads/index.html
 
